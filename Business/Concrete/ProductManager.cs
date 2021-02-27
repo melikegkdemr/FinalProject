@@ -8,6 +8,10 @@ using System.Text;
 
 namespace Business.Concrete
 {
+    //manager >> iş katmanının somut sınıfı
+    //bir iş sınıfı başka sınıfları new leyemez bunun yerine injection yaparız!!!
+    //productmanager new lendiği zaman bana bir tane ıproductdal referansı ver.
+    // business ın tek bildiği şey ıproductdal bu her şey olabilir(x,y,z = veri yöntemi)
     public class ProductManager : IProductService
     {
         IProductDal _productDal;

@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Business.Abstract
 {
+
+    // iş katmanında kullanacağımız servis operasyonları
     public interface IProductService
     {
         List<Product> GetAll();
