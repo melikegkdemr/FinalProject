@@ -1,11 +1,12 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAcces.Abstract
+namespace Core.DataAccess
 {
+    // core katmanı diğer katmanları referans almaz -- alırsa sen o katmana bağımlısın demektir.
     //generic constarint - kısıtlama 
     //where T: T ne olabilir?
     //class >> referans tip
